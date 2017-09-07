@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "email-proxy",
+  "version": "3.0.0-dev",
+  "description": "",
+  "author": "",
+  "license": "ubio-v1",
+  "repository": "github:universalbasket/email-proxy-example",
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "scripts": {
+    "start": "haraka -c ."
+  },
+  "dependencies": {
+    "Haraka": "2.8.14",
+    "request": "2.81.0",
+    "request-promise": "4.2.1"
+  },
+  "devDependencies": {}
+}
